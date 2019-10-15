@@ -1,2 +1,2 @@
 # CribbageZ3Py
-This repository contains the sollution to the Cribbage problem founded in  Ronald L. Graham, Donald E. Knuth, Oren Patashnik – “Concrete Mathematics” book  and the problem is : "Find the representation of a number  as a sum of consecutive positive integers"
+This repository contains the sollution to the Cribbage problem founded in  Ronald L. Graham, Donald E. Knuth, Oren Patashnik – “Concrete Mathematics” book  and the problem is : "Find the number of ways to represent a positive number (ex:1050 in the book) as a sum of consecutive positive integers" and in this solution i will create a function which has a number of terms(number of positive numbers) and the positive number(which we are trying to represent it).
