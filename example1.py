@@ -1,5 +1,7 @@
 from z3 import *
 #the sollution to the crribage players problem .
+#n is the number.
+#terms is the number of postive integers.
 def cribbage(terms,n):
     #creating an array to contain possitive numbers.
     cells=[Int('%d' %i) for i in range(terms)]
