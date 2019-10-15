@@ -1,5 +1,5 @@
 from z3 import *
-#the sollution to the crribage players problem
+#the sollution to the crribage players problem .
 def cribbage(terms,n):
     #creating an array to contain possitive numbers.
     cells=[Int('%d' %i) for i in range(terms)]
@@ -9,6 +9,7 @@ def cribbage(terms,n):
     for i in range(terms-1):
         s.add(cells[i]+1 == cells[i+1])
     s.add(Sum(cells)== n)
+    #the numbers must be positive so the first number must be positive .
     s.add(cells[0]>0)
     if s.check()==sat :
         print(s.model())
